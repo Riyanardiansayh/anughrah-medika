@@ -1,8 +1,8 @@
 <?php
-$host = getenv('DATABASE_HOST') ?: 'localhost';
+$host = getenv('DATABASE_HOST') ?: 'mysql.railway.internal';
 $user = getenv('DATABASE_USER') ?: 'root';
-$password = getenv('DATABASE_PASSWORD') ?: '';
-$database = getenv('DATABASE_NAME') ?: 'anugrah_medika';
+$password = getenv('DATABASE_PASSWORD') ?: 'bfFcfJsnzrloHJOAWMUpBfMiZIpDlBOb';
+$database = getenv('DATABASE_NAME') ?: 'railway';
 
 $database = new mysqli($host, $user, $password, $database);
 
